@@ -1,9 +1,9 @@
-
+const baseUrl = import.meta.env.BASE_URL;
 export const projects = [
   {
     id: "nexdc",
     name: "NexDC",
-    image: "/nexdc-dashboard.png",
+    image: `${baseUrl}/nexdc-dashboard.png`,
     github: "https://github.com/Rahaf46/NexDC",
     description: {
       ar: "لوحة تحكم لمركز بيانات لمتابعة البنية التحتية والعقد والطاقة وأنظمة التبريد.",
@@ -32,7 +32,7 @@ export const projects = [
   {
     id: "digital-library",
     name: "Digital Library System",
-    image: "/digital-library.png",
+    image: `${baseUrl}/digital-library.png`,
     github: "https://github.com/Rahaf46/digital-library-system",
     description: {
       ar: "نظام مكتبة رقمية لإدارة الكتب، يشمل إضافتها وعرضها وتعديلها وحذفها وتصفيتها حسب التصنيف.",
@@ -61,7 +61,7 @@ export const projects = [
   {
     id: "quick-notes",
     name: "Quick Notes",
-    image: "/quick-notes.png",
+    image: `${baseUrl}/quick-notes.png`,
     github: "https://github.com/Rahaf46/quick-notes-app",
     description: {
       ar: "تطبيق للملاحظات يتيح للمستخدم إنشاء الملاحظات وإدارتها.",
@@ -90,7 +90,7 @@ export const projects = [
   {
     id: "mini-store",
     name: "Mini Store Catalog",
-    image: "/mini-store.png",
+    image: `${baseUrl}/mini-store.png`,
     github: "https://github.com/Rahaf46/mini-store-catalog",
     description: {
       ar: "متجر مصغر لاستعراض المنتجات وإدارة سلة التسوق.",

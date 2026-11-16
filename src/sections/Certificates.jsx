@@ -3,12 +3,13 @@ import "./Certificates.css";
 
 function Certificates({ language }) {
   const isEnglish = language === "en";
+  const baseUrl = import.meta.env.BASE_URL;
 
 
   const mainCertificates = [
     {
       name: isEnglish ? "Golden Trainee" : "المتدرب الذهبي",
-      file: "/certificates/golden-trainee.pdf",
+      file: `${baseUrl}/certificates/golden-trainee.pdf`,
       organization: isEnglish
         ? "Aja Space Information Technology"
         : "فضاء أجا لتقنية المعلومات",
@@ -20,7 +21,7 @@ function Certificates({ language }) {
       name: isEnglish
         ? "Object-Oriented Programming (OOP) with PHP"
         : "البرمجة كائنية التوجه (OOP) لتطبيقات PHP",
-      file: "/certificates/php-oop.pdf",
+      file: `${baseUrl}/certificates/php-oop.pdf`,
       organization: isEnglish
         ? "Qassim Tech Association"
         : "جمعية القصيم التقنية",
@@ -30,7 +31,7 @@ function Certificates({ language }) {
     },
     {
       name: isEnglish ? "Artificial Intelligence Track" : "مسار الذكاء الاصطناعي",
-      file: "/certificates/ai-track.pdf",
+      file: `${baseUrl}/certificates/ai-track.pdf`,
       organization: "TechMinds",
       description: isEnglish
         ? "Participation in an artificial intelligence learning track."
@@ -40,7 +41,7 @@ function Certificates({ language }) {
       name: isEnglish
         ? "Introduction to Bug Bounty Programs"
         : "مقدمة في برامج مكافآت اكتشاف الثغرات",
-      file: "/certificates/bug-bounty.pdf",
+      file: `${baseUrl}/certificates/bug-bounty.pdf`,
       organization: isEnglish
         ? "Google Developer Groups (GDG) – Qassim"
         : "مجموعة مطوري جوجل (GDG) في القصيم",
@@ -52,7 +53,7 @@ function Certificates({ language }) {
       name: isEnglish
         ? "Introduction to Cybersecurity"
         : "مقدمة في الأمن السيبراني",
-      file: "/certificates/cybersecurity.pdf",
+      file: `${baseUrl}/certificates/cybersecurity.pdf`,
       organization: "Bairaq Learn",
       description: isEnglish
         ? "Attendance certificate for an introductory cybersecurity workshop."
@@ -65,7 +66,7 @@ function Certificates({ language }) {
       name: isEnglish
         ? "Robotics Engineering: How Disciplines Integrate to Build an Intelligent Robot"
         : "هندسة الروبوتات: كيف تتكامل التخصصات لصناعة روبوت ذكي",
-      file: "/certificates/robotics.pdf",
+      file: `${baseUrl}/certificates/robotics.pdf`,
       organization: isEnglish
         ? "Google Group – Development Department"
         : "قسم التطوير بمجموعة قوقل",
@@ -74,21 +75,21 @@ function Certificates({ language }) {
       name: isEnglish
         ? "Fundamentals of Design"
         : "العناصر الأساسية للتصميم",
-      file: "/certificates/design-fundamentals.pdf",
+      file: `${baseUrl}/certificates/design-fundamentals.pdf`,
       organization: "Coursera",
     },
     {
       name: isEnglish
         ? "Color Theory and Image Formatting"
         : "نظرية الألوان وتنسيقات الصور",
-      file: "/certificates/color-theory.pdf",
+      file: `${baseUrl}/certificates/color-theory.pdf`,
       organization: "Coursera",
     },
     {
       name: isEnglish
         ? "Typography and Spacing"
         : "فن الخط (Typography) والمساحات",
-      file: "/certificates/typography.pdf",
+      file: `${baseUrl}/certificates/typography.pdf`,
       organization: "Coursera",
     },
   ];

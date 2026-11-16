@@ -1,0 +1,33 @@
+
+.about {
+  padding: 100px 8%;
+  background-color: #f1eef5;
+}
+
+.about-content {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-label {
+  margin-bottom: 16px;
+  color: #9b83bd;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.about h2 {
+  margin-bottom: 30px;
+  color: #353342;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.about-description {
+  margin-bottom: 20px;
+  color: #777383;
+  font-size: 16px;
+  line-height: 2;
+}

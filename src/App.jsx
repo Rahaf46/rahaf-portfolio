@@ -45,7 +45,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/rahaf-portfolio">
       <ScrollToSection />
       <div dir={language === "ar" ? "rtl" : "ltr"}>
         <Navbar
